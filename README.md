@@ -6,20 +6,13 @@ For this assignment you are to write a Python program that works out various pro
 Further details of the task are provided below.
 
 ## ASSIGNMENT TASK
-You are required to write three functions, as explained below. The functions will be called `circles_of_radius()`, `circles_of_circumference()`, and `circles_of_area()`. Be sure to spell the function names exactly the same way that they are spelt here; otherwise, when we try to test them, the functions we are trying to test will not be found.
-
-A circle whose radius is r has a circumference of 2πr and an area of πr^2. In case you don’t know enough mathematics to read those formulas, π is the value discussed in section 3.2 of Downey as math.pi; symbols run together are to be multiplied, so 2πr means 2 × π × r; and a superscript of 2 means that the preceding symbol is squared, or multiplied by itself, so πr^2 means π × r × r.
-
-Those formulas tell you how to get the circumference and the area if you know the radius. From them, you can work out formulas to tell you how to get the radius if you know the circumference, and how to get the radius if you know the area.
-
-All three of the functions will take two arguments, a lower integer and a higher integer.
-
-`circles_of_radius(low, high)` will calculate the circumferences and areas of circles with radiuses ranging from low to just short of high, and display them in a particular way;
-
-`circles_of_circumference(low, high)` will calculate the radiuses and areas of circles with circumferences ranging from low to just short of high, and display them in a particular way;
-
-`circles_of_area(low, high)` will calculate the radiuses and circumferences of circles with areas ranging from low to just short of high, and display them in a particular way.
-
+You are required to write three functions, as explained below. The functions will be called `circles_of_radius()`, `circles_of_circumference()`, and `circles_of_area()`. Be sure to spell the function names exactly the same way that they are spelt here; otherwise, when we try to test them, the functions we are trying to test will not be found.<br>
+A circle whose radius is r has a circumference of 2πr and an area of πr^2. In case you don’t know enough mathematics to read those formulas, π is the value discussed in section 3.2 of Downey as math.pi; symbols run together are to be multiplied, so 2πr means 2 × π × r; and a superscript of 2 means that the preceding symbol is squared, or multiplied by itself, so πr^2 means π × r × r.<br>
+Those formulas tell you how to get the circumference and the area if you know the radius. From them, you can work out formulas to tell you how to get the radius if you know the circumference, and how to get the radius if you know the area.<br>
+All three of the functions will take two arguments, a lower integer and a higher integer.<br>
+`circles_of_radius(low, high)` will calculate the circumferences and areas of circles with radiuses ranging from low to just short of high, and display them in a particular way;<br>
+`circles_of_circumference(low, high)` will calculate the radiuses and areas of circles with circumferences ranging from low to just short of high, and display them in a particular way;<br>
+`circles_of_area(low, high)` will calculate the radiuses and circumferences of circles with areas ranging from low to just short of high, and display them in a particular way.<br>
 Here are examples of the output that should be produced by each function:
 
 ```
@@ -41,12 +34,9 @@ A circle with area 11 has radius 1.8712051592547776 and circumference 11.7571287
 A circle with area 12 has radius 1.9544100476116797 and circumference 12.279920495357862
 ```
 
-Your functions do not need to check that their arguments are suitable numbers. It will be the user’s responsibility to ensure this, and the functions can just assume it.
-
-Your program – the .py file that you hand in – will consist just of definitions for those three functions, along with appropriate comments and any import statements that you might need. It will not include calls to the functions: we will call the functions from the terminal when testing your programs.
-
-You should be sure to work through the week 2 lecture again, and chapters 3 and 4 of Downey, and to do the corresponding exercises, before starting work on these functions.
-
+Your functions do not need to check that their arguments are suitable numbers. It will be the user’s responsibility to ensure this, and the functions can just assume it.<br>
+Your program – the .py file that you hand in – will consist just of definitions for those three functions, along with appropriate comments and any import statements that you might need. It will not include calls to the functions: we will call the functions from the terminal when testing your programs.<br>
+You should be sure to work through the week 2 lecture again, and chapters 3 and 4 of Downey, and to do the corresponding exercises, before starting work on these functions.<br>
 When testing your functions, it would be wise to run them with exactly the arguments shown above, to check that they produce exactly the output shown above, except perhaps for very minor variations in the numbers.
 
 ## ASSESSMENT CRITERIA
@@ -62,6 +52,5 @@ appropriate comments (1 mark)
 Once these marks have been allocated, marks will be deducted for the following:
 - failure to follow instructions/requirements, eg with file name
 - syntax errors or runtime errors in your program (but we do not expect your function to deal with runtime errors caused by invalid function calls or arguments)
-- late submission – see below
-
+- late submission – see below<br>
 While we encourage students to work together on the weekly exercises, this assignment is an individual assessment item, and each student is required to complete it without assistance from other students or other people. If the marker uncovers evidence that you have cheated in any way, for example, by sharing your code with others in the class, or by getting help from others, the matter will be reported to the Student Academic Conduct Officer as a potential case of academic misconduct.
